@@ -1,11 +1,12 @@
 body {
     font-family: sans-serif;
+    
 }
 
 header {
     border: 3px solid darkblue;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     color: darkblue;
     text-shadow: 1px 0 0 black,
@@ -13,8 +14,41 @@ header {
 }
   header a {
     border: 3px solid darkblue;
-    border-radius: 5px;
+    border-radius: 12px;
     background-color: darkblue;
     color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+
+h1 {
+    color: orangered;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    padding: 1px;
+}
+.sup {
+    text-align: center;
+    color: darkblue;
     margin: 3px;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: white;
+}
+nav a{
+    border: 2px solid darkblue;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: darkblue;
+    text-decoration: none;
+    color: white;
+    margin: 3px;
+    padding: 5px;
 }
